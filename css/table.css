@@ -1,0 +1,76 @@
+section{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin: 0 auto;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 219px;
+    background: linear-gradient(180deg, #144552 0%,#272640 100%);
+}
+h1{
+    text-align: center;
+    background: #f85ace;
+    box-shadow: 0 0 10px #f85ace, 0 0 40px #f85ace, 0 0 80px #f85ace;
+    border-radius: 20px;
+    padding: 5px 0;
+    color: #63029b;
+    
+}
+.encabezado{
+    padding: 3% 0;
+    text-align: center;
+    width: 260px;
+    margin-left: 39%;
+    align-content: center;
+}
+.encabezado table{
+    margin: 0 auto;
+}
+th {
+    background: linear-gradient(180deg, #cfa8ce 0%,#7fb8da 100% );
+    padding: 10px;
+}
+
+td {
+    padding: 7px;
+    color:#e6dbf8;
+}
+
+tr:hover{
+    background: #154d5c;
+    cursor: pointer;
+    
+}
+
+.boton {
+    height: 100%;
+    width: 150px; 
+    padding: 2px 10px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #faddf9 0%,#c0dff1 100% );
+    border-radius: 10px;
+}
+.boton:hover{
+    box-shadow: 0 0 10px #faddf9, 0 0 10px #faddf9, 0 0 10px #faddf9;
+}
+
+.boton2{
+    height: 100%;
+    width: 150px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #2f0711 0%, #4D194D 100%);
+    color:#ff8383;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+.boton2:hover{
+    box-shadow: 0 0 10px #f03636, 0 0 10px #f03636, 0 0 10px #f03636;
+}
+@media screen and (max-width:780px) {
+    table {
+        width: 80%;
+    }}

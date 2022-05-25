@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-image: url("../images/dragon.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+*{
+    box-sizing: border-box;
+}
+.encabezado{
+    font-family: 'Righteous', cursive;
+    color: #F1FAEE;
+    letter-spacing: 4px;
+}
+.logo{
+    color: #d6ba82;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: linear-gradient(180deg, #006466 0%,#272640 100%);
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type = "text"], input[type = "password"], input[type="email"]{
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;    
+    width: 95%;
+    border: 1px solid rgb(223, 196, 255);
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: rgb(223, 196, 255);
+}
+.container_button{
+  margin-top: 30px;
+}
+.container_button {
+    border: none;
+    width: 95%;
+    color: #FFF;
+    font-size: 24px;
+    background: #1A2537;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    transition: 0.2s;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: #FFF;
+    font-size: 24px;
+    background: transparent;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+.container_button:hover{
+    background: #A945C7;
+    box-shadow: 0 0 10px #A945C7, 0 0 40px #A945C7, 0 0 80px #A945C7;
+    transition-delay: 0.3s;
+    
+}
+
+
+p{
+    text-align: center;
+    color: rgb(223, 196, 255);
+}
+.link{
+    text-decoration: none;
+    color: rgb(252, 169, 255);
+}
+.link:hover{
+    background: #6919d1;
+    box-shadow: 0 0 10px #6919d1, 0 0 40px #6919d1, 0 0 80px #6919d1;
+    transition-delay: 0.3s;
+    border-radius: 10px;
+}
+@media screen and (max-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
