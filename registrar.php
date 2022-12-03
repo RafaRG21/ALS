@@ -1,6 +1,6 @@
 <?php
 //Conexión a la BD: "cursos"
-$connection = mysqli_connect('localhost','root','root','cursos');
+$connection = mysqli_connect('localhost','root','','cursos');
 //for testing connection
 if(!$connection){
     echo 'Error de conexión a la BD...'. mysqli_connect_error();

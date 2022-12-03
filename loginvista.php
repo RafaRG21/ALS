@@ -28,7 +28,7 @@
         <input type="submit" value="Iniciar sesión" class="button">
         </div>
         <p>Al registrarte, aceptas las condiciones de uso y privacidad.</p>
-        <p>¿No tienes cuenta? <a href="formulario.php" class="link">Regístrate</a></p>
+        <p>¿No tienes cuenta? <a href="formulario.php" class="link">&nbsp; &nbsp;Regístrate</a></p>
       </div>
     </form>
   </body>
